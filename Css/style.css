@@ -2,17 +2,44 @@ body {
     font-family: Arial, sans-serif;
     background-color: #0a0a0a; /* Dark, almost black background */
     color: #f1f1f1; /* Light gray text for better readability */
+    margin: 0;
+    padding: 0;
 }
 
+/* Header avec trois logos */
 header {
-    background-color: #1b1b1b; /* Dark gray background for header */
+    display: flex;
+    flex-direction: column; /* Afficher les logos et la navigation en colonne */
+    justify-content: center; /* Aligne les logos et la nav verticalement */
+    align-items: center; /* Centrer les éléments */
     padding: 1rem;
+    background-color: #1b1b1b; /* Dark gray background for header */
+    color: white;
 }
 
+/* Style général pour tous les logos */
+.logo {
+    width: 50px;  /* Largeur des logos, ajustez selon la taille souhaitée */
+    height: auto;  /* Conserve le ratio de l'image */
+    margin-bottom: 10px; /* Espacement entre les logos */
+}
+
+
+
+/* Logo 2 (au centre) */
+header.logo2 {
+    display: block;
+    margin: 0 auto; /* Centre ce logo horizontalement */
+}
+
+
+
+/* Navigation */
 nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Centre les éléments horizontalement */
     list-style-type: none;
+    margin-top: 20px; /* Ajoute de l'espace entre les logos et la navigation */
 }
 
 nav ul li {
@@ -28,34 +55,70 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 
-/* Style for active nav link */
+/* Style pour le lien actif dans la navigation */
 nav ul li a.active {
     background-color: #ff5c00; /* Bright orange-red for the active link */
     color: #ffffff; /* White text */
 }
 
-/* Hover effect */
+/* Effet au survol des liens */
 nav ul li a:hover {
     background-color: #df4e15; /* Darker red-orange on hover */
 }
 
-/* Hero section */
-.hero {
-    background-color: #212121; /* Dark, charcoal gray background */
+/* Style principal */
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #212121;
+    border-radius: 8px;
+}
+
+h2 {
     text-align: center;
-    padding: 50px 0;
+    color: #ff5c00;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: #f1f1f1; /* White text for the headline */
+h3 {
+    color: #ff5c00;
 }
 
-.hero p {
-    font-size: 1.2rem;
+.setting {
+    background-color: #333333;
+    border: 1px solid #444;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.setting p {
+    margin: 5px 0;
+}
+
+/* Section clavier/souris */
+.keyboard-mouse {
+    background-color: #1f1f1f;
+    padding: 15px;
     margin-bottom: 20px;
-    color: #b2b2b2; /* Slightly darker gray for subtext */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Section manette */
+.controller {
+    background-color: #2b2b2b;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Footer */
+footer {
+    background-color: #1b1b1b; /* Dark footer background */
+    color: #7a7a7a; /* Gray text for the footer */
+    padding: 10px 0;
+    text-align: center;
 }
 
 /* Call to action button */
@@ -73,15 +136,7 @@ nav ul li a:hover {
     background-color: #ff2a00; /* Darker red-orange on hover */
 }
 
-/* Footer */
-footer {
-    background-color: #1b1b1b; /* Dark footer background */
-    color: #7a7a7a; /* Gray text for the footer */
-    padding: 10px 0;
-    text-align: center;
-}
-
-/* Optional: Shadow effect for buttons and some elements */
+/* Effet ombre pour les boutons et certains éléments */
 .cta-button, .hero h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Subtle shadow to give a raised effect */
 }
