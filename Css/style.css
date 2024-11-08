@@ -67,6 +67,31 @@ nav ul li a.active {
 nav ul li a:hover {
     background-color: #df4e15; /* Darker red-orange on hover */
 }
+/* Section de présentation */
+.presentation {
+    padding: 20px;
+    background-color: #212121;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+
+.presentation h2 {
+    color: #ff5c00;
+}
+
+.presentation img {
+    width: 100%;  /* Images en pleine largeur */
+    max-width: 600px; /* Limiter la taille de l'image */
+    height: auto;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out; /* Animation d'apparition */
+}
+ /* Animation d'apparition des images */
+ @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
 
 /* Style principal */
 main {
