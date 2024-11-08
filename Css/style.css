@@ -6,40 +6,42 @@ body {
     padding: 0;
 }
 
-/* Header avec trois logos */
+/* Header avec trois logos sur la même ligne */
 header {
-    display: flex;
-    flex-direction: column; /* Afficher les logos et la navigation en colonne */
-    justify-content: center; /* Aligne les logos et la nav verticalement */
-    align-items: center; /* Centrer les éléments */
     padding: 1rem;
     background-color: #1b1b1b; /* Dark gray background for header */
     color: white;
+    display: flex;
+    justify-content: space-between; /* Distribuer l'espace de façon égale entre les logos */
+    align-items: center; /* Centrer les éléments verticalement */
+    width: auto; /* Assurez-vous que le header prend toute la largeur */
 }
 
 /* Style général pour tous les logos */
 .logo {
-    width: 50px;  /* Largeur des logos, ajustez selon la taille souhaitée */
+    width: 200px;  /* Largeur des logos, ajustez selon la taille souhaitée */
     height: auto;  /* Conserve le ratio de l'image */
-    margin-bottom: 10px; /* Espacement entre les logos */
 }
 
-
-
-/* Logo 2 (au centre) */
-header.logo2 {
-    display: block;
-    margin: 0 auto; /* Centre ce logo horizontalement */
+/* Positionner un logo au centre */
+.logo.center {
+    position: absolute; /* Permet de positionner précisément ce logo */
+    left: 50%; /* Déplacer le logo au centre de l'écran */
+    transform: translateX(-50%); /* Ajuste pour que le logo soit centré */
+}
+/* Navigation sous les logos */
+nav {
+    width: 100%; /* Prend toute la largeur disponible */
+    background-color: #1b1b1b; /* Couleur de fond de la navigation */
+    padding: 1rem 0; /* Espacement de la navigation */
 }
 
-
-
-/* Navigation */
+/* Liste de navigation */
 nav ul {
     display: flex;
     justify-content: center; /* Centre les éléments horizontalement */
     list-style-type: none;
-    margin-top: 20px; /* Ajoute de l'espace entre les logos et la navigation */
+    margin: 0;
 }
 
 nav ul li {
