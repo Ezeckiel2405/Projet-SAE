@@ -49,8 +49,7 @@ nav ul li a {
 /* Le footer centré en bas de la page */
 .footer {
     background-color: #222;
-    color: #fff;
-    padding: 10px 0;
+    color: #5e5c5c;
+    padding: 10 px 0;
     text-align: center;
-    width: 100%; /* S'assure qu'il prend toute la largeur */
 }
