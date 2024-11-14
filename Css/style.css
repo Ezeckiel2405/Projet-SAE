@@ -26,7 +26,7 @@ header {
 }
 
 /* Positionner un logo au centre */
-.logo.center {
+a.logo.center {
     position: absolute; /* Permet de positionner précisément ce logo */
     left: 50%; /* Déplacer le logo au centre de l'écran */
     transform: translateX(-50%); /* Ajuste pour que le logo soit centré */
