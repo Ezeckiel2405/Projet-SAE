@@ -305,5 +305,23 @@ p {
 .weapon-config h2 span {
     font-weight: normal;
     font-size: 0.9rem;
-    color: #a9a9a9; /* Gris pour les informations supplémentaires */
+    color: #f86408; /* Gris pour les informations supplémentaires */
+}
+section {
+    margin-bottom: 30px;
+    background: #171717;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #f95b00;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+article h3 {
+    color: #f17c2d;
 }
