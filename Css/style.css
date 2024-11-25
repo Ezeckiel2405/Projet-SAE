@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: auto;
 }
 
 /* --- Header --- */
@@ -16,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: auto;
 }
 
 /* Logos */
@@ -68,7 +69,28 @@ nav ul li a:hover {
 }
 
 /* --- Présentation --- */
-.presentation {
+.presentation{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.reglages{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.armes{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.esport{
     padding: 20px;
     background-color: #212121; /* Fond gris */
     border-radius: 8px;
@@ -76,10 +98,18 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.presentation h2 {
+.presentationh2 {
     color: #ff5c00;
 }
-
+.reglages h2 {
+    color: #ff5c00;
+}
+.armes h2 {
+    color: #ff5c00;
+}
+.esport h2 {
+    color: #ff5c00;
+}
 .presentation img {
     width: 100%;
     max-width: 600px;
@@ -87,7 +117,27 @@ nav ul li a:hover {
     margin-top: 20px;
     animation: fadeIn 2s ease-in-out;
 }
-
+.reglages img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+.armes img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+.esport img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
 /* --- Animation des images --- */
 @keyframes fadeIn {
     0% {
