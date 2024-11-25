@@ -156,10 +156,10 @@ section {
 
 /* --- Articles --- */
  h3 {
-    color: #f17c2d;
+    color: #f77016;
 }
  h4 {
-    color: #f17c2d;
+    color: #e3a509;
 }
 
 /* --- Réglages personnalisés --- */
@@ -300,4 +300,11 @@ h1, h2, h3 {
 p {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
+}
+.esport img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
 }
