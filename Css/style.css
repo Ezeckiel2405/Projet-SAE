@@ -98,18 +98,7 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.presentationh2 {
-    color: #ff5c00;
-}
-.reglages h2 {
-    color: #ff5c00;
-}
-.armes h2 {
-    color: #ff5c00;
-}
-.esport h2 {
-    color: #ff5c00;
-}
+
 .presentation img {
     width: 100%;
     max-width: 600px;
@@ -158,7 +147,7 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
+ h2 {
     color: #f95b00; /* Orange vif */
     border-bottom: 2px solid #ffffff;
     padding-bottom: 5px;
@@ -166,7 +155,10 @@ section h2 {
 }
 
 /* --- Articles --- */
-article h3 {
+ h3 {
+    color: #f17c2d;
+}
+ h4 {
     color: #f17c2d;
 }
 
@@ -197,7 +189,7 @@ article h3 {
 
 .setting:hover p {
     color: #ff5c00;
-    transform: scale(1.05);
+    transform: scale(1.10) translateX(5%); 
 }
 
 /* --- Sections d'armes --- */
