@@ -97,7 +97,83 @@ nav ul li a:hover {
     margin: 20px;
     text-align: center;
 }
-
+.intro{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.premiers-pas{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.experience-moderne{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.aventure-futuriste{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.battle-royale{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.Debut{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.Activision{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.separation{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.respawn{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.black_ops{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
+.innovations{
+    padding: 20px;
+    background-color: #212121; /* Fond gris */
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+}
 
 .presentation img {
     width: 100%;
