@@ -210,9 +210,16 @@ nav ul li a:hover {
     margin-top: 20px;
     animation: fadeIn 2s ease-in-out;
 }
-.icons {
-    color: #f77016;
+.icons span {
+    font-size: 24px; /* Taille des icônes */
+    margin: 10px;
+    color: #d8871b; /* Couleur par défaut de Discord */
 }
+
+.icons span:hover {
+    color: #f1f1f5; /* Changement de couleur au survol */
+}
+
 
 /* --- Animation des images --- */
 @keyframes fadeIn {
